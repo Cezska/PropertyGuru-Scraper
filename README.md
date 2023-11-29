@@ -100,3 +100,78 @@ On the map, pins are colored:
 1. Green indicates that there is one or more listing for sale at a price below the median price of the property or median price of the property area
 2. Red indicates that there is no listing for sale at a price below the median price of the property or median price of the property area
 
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Column</th>
+    <th class="tg-0pky">Description</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">id</td>
+    <td class="tg-0pky">Listing ID</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">title</td>
+    <td class="tg-0pky">Listing title</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">location</td>
+    <td class="tg-0pky">Location of property from listing</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">price</td>
+    <td class="tg-0pky">Price of property</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">bed</td>
+    <td class="tg-0pky">No of bedrooms</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">bath</td>
+    <td class="tg-0pky">No of bathrooms</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">sqft</td>
+    <td class="tg-0pky">Total sqft of property</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">psf</td>
+    <td class="tg-0pky">Price per sqft of property</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">year</td>
+    <td class="tg-0pky">Property year built (0 if data not available)</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">titleType</td>
+    <td class="tg-0pky">Title type of property</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">buildingType</td>
+    <td class="tg-0pky">Building type of property</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">url</td>
+    <td class="tg-0pky">Link to property listing</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">area</td>
+    <td class="tg-0pky">Location area of property from listing</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">full_address</td>
+    <td class="tg-0pky">Address of property from Google Maps based on title and listing location</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">latitude</td>
+    <td class="tg-0pky">Latitude of property from Google Maps based on title and listing location</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">longitude</td>
+    <td class="tg-0pky">Longitude of property from Google Maps based on title and listing location</td>
+  </tr>
+</tbody>
+</table>

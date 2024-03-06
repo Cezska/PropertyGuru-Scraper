@@ -4,7 +4,7 @@ import pandas as pd
 from streamlit_folium import st_folium
 import plotly.express as px 
 
-datafile = pd.read_csv("../data/properties_raw_11-27-2023 23-16-29 PM.csv")
+datafile = pd.read_csv("data/properties_raw_11-27-2023 23-16-29 PM.csv")
 datafile['psf'] = datafile['psf'].replace(',', '', regex=True).astype(float).round(0)
 datafile['year'] = datafile['year'].fillna(0).astype(int)
 
